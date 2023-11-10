@@ -3,3 +3,41 @@ font-family: 'Reenie Beanie', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Shadows Into Light Two', cursive;
 */
+
+:root {
+    --primary-color: #d5eeff;
+    --secondary-color: #007cb9;
+    --box-shadow: 0 5px 10px #007cb9;
+    --primary-font: font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+.hero {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 160px 20px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.hero p{
+    font-family: var(--primary-font);
+    margin: 0px;
+}
+
+.btn-branding {
+    background: var(--secondary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 8px 15px;
+}
