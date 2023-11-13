@@ -8,12 +8,13 @@ font-family: 'Shadows Into Light Two', cursive;
     --primary-color: #d5eeff;
     --secondary-color: #007cb9;
     --box-shadow: 0 5px 10px #007cb9;
-    --primary-font: font-family: 'Poppins', sans-serif;
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Shadows Into Light Two', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: var(--secondary-font);
 }
 
 
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 70px;
 }
 
 .hero p{
