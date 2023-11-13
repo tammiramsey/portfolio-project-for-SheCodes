@@ -77,6 +77,11 @@ p {
     .hero {
         padding: 80px 20px;
         }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
 
 .btn-branding {
