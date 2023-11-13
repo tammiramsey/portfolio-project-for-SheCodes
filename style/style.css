@@ -74,3 +74,12 @@ p {
     line-height: 27px;
     padding: 8px 15px;
 }
+
+.btn-branding-outline:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.footer{
+    line-height: 15px;
+}
