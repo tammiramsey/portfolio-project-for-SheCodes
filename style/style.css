@@ -56,6 +56,17 @@ p {
     margin: 0px;
 }
 
+.project-description {
+    padding: 120px 60px;
+}
+
+@media (max-width: 960px){
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+}
+
 .btn-branding {
     background: var(--secondary-color);
     border-radius: 4px;
