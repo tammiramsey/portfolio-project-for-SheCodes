@@ -131,7 +131,11 @@ p {
     font-family: var(--primary-font);
 }
 
-
+.content h3{
+    font-size: 24px; 
+    line-height: 1.2;
+    
+}
 
 .footer{
     line-height: 15px;
