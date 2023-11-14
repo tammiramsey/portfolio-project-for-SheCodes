@@ -108,28 +108,30 @@ p {
     color: white;
 }
 
-.about {
-    padding: 80px 20px;
-}
-
-.about-content {
+.content-container {
     margin: 15px;
     text-align: center;
 }
 
-.about h1 {
+.content-container img {
+    border-radius: 6px;
+}
+
+.content {
+    padding: 80px 20px;
+}
+
+.content h1 {
     font-size: 64px;
     line-height: 1.2;
 }
 
-.about h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--primary-font);
 }
 
-.about img {
-    border-radius: 10px;
-}
+
 
 .footer{
     line-height: 15px;
