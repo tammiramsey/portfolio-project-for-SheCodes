@@ -108,6 +108,29 @@ p {
     color: white;
 }
 
+.about {
+    padding: 80px 20px;
+}
+
+.about-content {
+    margin: 15px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.about h2 {
+    font-size: 18px;
+    font-family: var(--primary-font);
+}
+
+.about img {
+    border-radius: 10px;
+}
+
 .footer{
     line-height: 15px;
 }
