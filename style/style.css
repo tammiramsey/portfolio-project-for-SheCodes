@@ -108,6 +108,11 @@ p {
     color: white;
 }
 
+.work-banner {
+    background-color: var(--highlight-color);
+    padding: 20px;
+}
+
 .content-container {
     margin: 15px;
     text-align: center;
@@ -138,6 +143,10 @@ p {
 
 .content p {
     text-align: center;
+}
+
+.project-tile{
+    background-color: var(--primary-color);
 }
 
 .footer{
