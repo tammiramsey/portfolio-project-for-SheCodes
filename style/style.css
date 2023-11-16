@@ -26,6 +26,39 @@ p {
     font-size: 16px;
 }
 
+nav {
+    padding: 15px;
+}
+nav ul {
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 150ms ease-in-out;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: var(--highlight-color);
+}
+
+.active{
+    color: var(--secondary-color);
+}
+
+.logo {
+    height: 45px;
+}
+
 .feature {
     font-size: 30px;
     border: 2px solid var(--secondary-color);
