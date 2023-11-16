@@ -57,7 +57,7 @@ nav a:hover{
 }
 
 .logo {
-    max-height: 75px;
+    max-height: 95px;
 }
 
 .feature {
@@ -94,7 +94,7 @@ nav a:hover{
     padding: 120px 60px;
 }
 
-@media (max-width: 960px){
+@media (max-width: 750px){
     .project-description{
         padding: 0;
         text-align: center;
@@ -116,7 +116,17 @@ nav a:hover{
         padding: 0;
         text-align: center;
     }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .logo {
+        display: none;
+    }
 }
+
+
 
 .btn-branding {
     background: var(--secondary-color);
