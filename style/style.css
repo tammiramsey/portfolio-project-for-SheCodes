@@ -142,10 +142,6 @@ p {
     line-height: 1.2;
 }
 
-.content p {
-    text-align: center;
-}
-
 .project-tile{
     background-color: var(--primary-color);
    padding: 15px;
