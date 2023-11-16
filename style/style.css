@@ -7,7 +7,7 @@ font-family: 'Shadows Into Light Two', cursive;
     --primary-color: #d5eeff;
     --secondary-color: #007cb9;
     --highlight-color: #fc8218a9;
-    --box-shadow: 0 5px 10px #007cb9;
+    --box-shadow: 0 5px 5px #606470;
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Shadows Into Light Two', cursive;
 }
@@ -61,7 +61,7 @@ nav a:hover{
 }
 
 .about-img {
-    margin-top: 65px;
+    margin-top: 80px;
 }
 
 .feature {
@@ -156,9 +156,11 @@ nav a:hover{
     color: white;
 }
 
-.work-banner {
+.banner {
     background-color: var(--highlight-color);
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
 }
 
 .content-container {
