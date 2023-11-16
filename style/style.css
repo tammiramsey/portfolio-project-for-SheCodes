@@ -156,6 +156,12 @@ nav a:hover{
     color: white;
 }
 
+.button-link {
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
 .banner {
     background-color: var(--highlight-color);
     padding: 20px;
