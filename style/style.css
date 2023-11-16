@@ -60,6 +60,10 @@ nav a:hover{
     max-height: 95px;
 }
 
+.about-img {
+    margin-top: 65px;
+}
+
 .feature {
     font-size: 30px;
     border: 2px solid var(--secondary-color);
@@ -94,18 +98,18 @@ nav a:hover{
     padding: 120px 60px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 900px){
     .project-description{
         padding: 0;
         text-align: center;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 48px;
     }
 
     h2 {
-        font-size: 44px;
+        font-size: 38px;
     }
 
     .hero {
